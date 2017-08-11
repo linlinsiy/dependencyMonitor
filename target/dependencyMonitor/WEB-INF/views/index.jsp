@@ -201,6 +201,16 @@
                     //clear previous notes
                     notes.selectAll('*').remove();
 
+<<<<<<< HEAD
+                    //该服务调用其他服务的方法
+                    var listSon = notes.append('ul');
+                    listSon.append('li')
+                        .text("调用：\n" + chosenNode.sonInvocations + "\n");
+                    //该服务被其他服务调用的方法
+                    var listFather = notes.append('ul');
+                    listFather.append('li')
+                        .text("被调用：\n" + chosenNode.fatherInvocations);
+=======
                     var son = chosenNode.sonInvocations;
                     var father = chosenNode.fatherInvocations;
                     //该服务调用其他服务的方法
@@ -221,6 +231,7 @@
                         .text( function (d) {
                                 return d;
                             });
+>>>>>>> dev-zhou
                 });
             });
 
