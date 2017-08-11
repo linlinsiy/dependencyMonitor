@@ -96,7 +96,7 @@
       <version>${spring.data.neo4j.version}</version>
     </dependency>
 
-    <!-- Neo4j Geo-Spatial -->
+     <!--Neo4j Geo-Spatial-->
     <dependency>
       <groupId>org.neo4j</groupId>
       <artifactId>neo4j-spatial</artifactId>

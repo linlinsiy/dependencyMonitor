@@ -37,12 +37,13 @@ public class SerConAdapter implements SerConTarget {
     @Override
     public List<Server> getAllSerFromNeo() {
         EndResult<Server> all = serverRepository.findAll();
-        Iterator<Server> iterator = all.iterator();
-        List<Server> resultList = new ArrayList<>();
-        while(iterator.hasNext()){
-            resultList.add(iterator.next());
-        }
-        return resultList;
+        ArrayList<Server> as = all.as(ArrayList.class);
+//        Iterator<Server> iterator = all.iterator();
+//        List<Server> resultList = new ArrayList<>();
+//        while(iterator.hasNext()){
+//            resultList.add(iterator.next());
+//        }
+        return as;
     }
 
     @Override

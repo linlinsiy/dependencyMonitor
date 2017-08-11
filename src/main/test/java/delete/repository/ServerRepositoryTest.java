@@ -46,6 +46,17 @@ public class ServerRepositoryTest {
     }
 
     @Test
+    public void getAllNodes(){
+        serverRepository.findAll();
+    }
+
+    @Test
+    public void getAllServer(){
+        Set<Server> set = serverRepository.getAllServer();
+        System.out.println(set.size());
+    }
+
+    @Test
     public void deleteAllServer(){
         serverRepository.deleteAll();
     }

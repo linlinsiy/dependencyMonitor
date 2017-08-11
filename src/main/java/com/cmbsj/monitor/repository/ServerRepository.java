@@ -24,4 +24,7 @@ public interface ServerRepository extends GraphRepository<Server> {
 
     @Query("MATCH (n:Server) WHERE n.serverName=~{serverName} RETURN n")
     List<Server> getServerByName(@Param("serverName") String serverName);
+
+    @Query("MATCH (n:Server) RETURN n")
+    Set<Server> getAllServer();
 }

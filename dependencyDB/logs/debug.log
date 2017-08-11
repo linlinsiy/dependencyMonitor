@@ -5098,3 +5098,14 @@ RETURN 'procedures' as a, procedures as result
 2017-08-10 03:31:56.973+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [157040]:  Check pointing completed
 2017-08-10 03:31:56.973+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2017-08-10 03:31:56.973+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-08-10 05:51:08.532+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 293171ms.
+2017-08-10 09:31:52.009+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-08-10 09:31:52.009+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-08-10 09:31:52.029+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [157040]:  Starting check pointing...
+2017-08-10 09:31:52.029+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [157040]:  Starting store flush...
+2017-08-10 09:31:52.194+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [157040]:  Store flush completed
+2017-08-10 09:31:52.194+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [157040]:  Starting appending check point entry into the tx log...
+2017-08-10 09:31:52.194+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [157040]:  Appending check point entry into the tx log completed
+2017-08-10 09:31:52.194+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [157040]:  Check pointing completed
+2017-08-10 09:31:52.194+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-08-10 09:31:52.194+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
